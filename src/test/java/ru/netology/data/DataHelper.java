@@ -93,7 +93,7 @@ public class DataHelper {
     }
 
     public static String getLongName() {
-        return "johnjohnjohnjohnjohnjohnjohnjohnjohnjohnjohn";
+        return "johnjohnjohnjohnjohnjohnjohnjohnjohnjohnjohn johnjohnjohnjohnjohnjohnjohnjohnjohnjohnjohn";
     }
 
     public static String getNumbersInName() {

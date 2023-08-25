@@ -123,7 +123,7 @@ public class CreditTourTest {
         var owner = DataHelper.getValidName();
         var cvc = DataHelper.getValidCVC();
         creditPage.payWithCreditCard(cardNumber, month, year, owner, cvc);
-        creditPage.invalidFormat();
+        creditPage.invalidCardExpiry();
     }
 
     @Test

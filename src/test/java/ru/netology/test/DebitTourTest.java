@@ -137,7 +137,7 @@ public class DebitTourTest {
         var owner = DataHelper.getValidName();
         var cvc = DataHelper.getValidCVC();
         debitPage.payWithDebitCard(cardNumber, month, year, owner, cvc);
-        debitPage.invalidFormat();
+        debitPage.invalidCardExpiry();
     }
 
     @Test
