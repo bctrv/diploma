@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.DebitTourTest" tests="29" skipped="0" failures="8" errors="0" timestamp="2023-08-26T14:13:40" hostname="MacBook-Pro-artem.local" time="74.925">
+<testsuite name="ru.netology.test.DebitTourTest" tests="29" skipped="0" failures="8" errors="0" timestamp="2023-08-28T07:26:48" hostname="MacBook-Pro-artem.local" time="78.498">
   <properties/>
-  <testcase name="purchaseWithSymbolsInCVC()" classname="ru.netology.test.DebitTourTest" time="0.421"/>
-  <testcase name="purchaseWithCyrrilicName()" classname="ru.netology.test.DebitTourTest" time="4.932">
-    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059225207.8.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059225207.8.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="purchaseWithSymbolsInCVC()" classname="ru.netology.test.DebitTourTest" time="0.417"/>
+  <testcase name="purchaseWithCyrrilicName()" classname="ru.netology.test.DebitTourTest" time="4.981">
+    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207613033.8.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207613033.8.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059225207.8.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059225207.8.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207613033.8.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207613033.8.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -21,7 +21,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidFormat(DebitPage.java:57)
-	at app//ru.netology.test.DebitTourTest.purchaseWithCyrrilicName(DebitTourTest.java:261)
+	at app//ru.netology.test.DebitTourTest.purchaseWithCyrrilicName(DebitTourTest.java:262)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,10 +118,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -145,15 +145,15 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithEmptyInMonthField()" classname="ru.netology.test.DebitTourTest" time="0.388"/>
-  <testcase name="purchaseWithEmptyName()" classname="ru.netology.test.DebitTourTest" time="0.391"/>
-  <testcase name="purchaseWithLettersInMonthField()" classname="ru.netology.test.DebitTourTest" time="0.393"/>
-  <testcase name="purchaseWith2CharCVC()" classname="ru.netology.test.DebitTourTest" time="0.413"/>
-  <testcase name="purchaseWithSymbolsInNameField()" classname="ru.netology.test.DebitTourTest" time="4.929">
-    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059231682.9.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059231682.9.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="purchaseWithEmptyInMonthField()" classname="ru.netology.test.DebitTourTest" time="0.391"/>
+  <testcase name="purchaseWithEmptyName()" classname="ru.netology.test.DebitTourTest" time="0.37"/>
+  <testcase name="purchaseWithLettersInMonthField()" classname="ru.netology.test.DebitTourTest" time="0.397"/>
+  <testcase name="purchaseWith2CharCVC()" classname="ru.netology.test.DebitTourTest" time="0.396"/>
+  <testcase name="purchaseWithSymbolsInNameField()" classname="ru.netology.test.DebitTourTest" time="4.893">
+    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207619531.9.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207619531.9.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059231682.9.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059231682.9.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207619531.9.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207619531.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -168,7 +168,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidFormat(DebitPage.java:57)
-	at app//ru.netology.test.DebitTourTest.purchaseWithSymbolsInNameField(DebitTourTest.java:294)
+	at app//ru.netology.test.DebitTourTest.purchaseWithSymbolsInNameField(DebitTourTest.java:295)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -265,10 +265,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -292,19 +292,19 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithShortCardNumber()" classname="ru.netology.test.DebitTourTest" time="0.401"/>
-  <testcase name="purchaseWithSymbolsInMonthField()" classname="ru.netology.test.DebitTourTest" time="0.391"/>
-  <testcase name="purchaseWithLettersInYearField()" classname="ru.netology.test.DebitTourTest" time="0.408"/>
-  <testcase name="purchaseWithMonthMoreThan12()" classname="ru.netology.test.DebitTourTest" time="0.418"/>
-  <testcase name="purchaseWithLettersInCardField()" classname="ru.netology.test.DebitTourTest" time="0.394"/>
-  <testcase name="purchaseWithLettersInCVC()" classname="ru.netology.test.DebitTourTest" time="0.398"/>
-  <testcase name="ApprovedCardPurchaseWithValidData()" classname="ru.netology.test.DebitTourTest" time="6.44"/>
-  <testcase name="purchaseWithOneNumberInYearField()" classname="ru.netology.test.DebitTourTest" time="0.4"/>
-  <testcase name="purchaseWithOneWordName()" classname="ru.netology.test.DebitTourTest" time="4.942">
-    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059245893.10.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059245893.10.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="purchaseWithShortCardNumber()" classname="ru.netology.test.DebitTourTest" time="0.405"/>
+  <testcase name="purchaseWithSymbolsInMonthField()" classname="ru.netology.test.DebitTourTest" time="0.402"/>
+  <testcase name="purchaseWithLettersInYearField()" classname="ru.netology.test.DebitTourTest" time="0.416"/>
+  <testcase name="purchaseWithMonthMoreThan12()" classname="ru.netology.test.DebitTourTest" time="0.395"/>
+  <testcase name="purchaseWithLettersInCardField()" classname="ru.netology.test.DebitTourTest" time="0.39"/>
+  <testcase name="purchaseWithLettersInCVC()" classname="ru.netology.test.DebitTourTest" time="0.4"/>
+  <testcase name="ApprovedCardPurchaseWithValidData()" classname="ru.netology.test.DebitTourTest" time="10.087"/>
+  <testcase name="purchaseWithOneNumberInYearField()" classname="ru.netology.test.DebitTourTest" time="0.428"/>
+  <testcase name="purchaseWithOneWordName()" classname="ru.netology.test.DebitTourTest" time="5.007">
+    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207637363.10.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207637363.10.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059245893.10.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059245893.10.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207637363.10.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207637363.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -319,7 +319,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidFormat(DebitPage.java:57)
-	at app//ru.netology.test.DebitTourTest.purchaseWithOneWordName(DebitTourTest.java:250)
+	at app//ru.netology.test.DebitTourTest.purchaseWithOneWordName(DebitTourTest.java:251)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -416,10 +416,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -443,11 +443,11 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="DeclinedCardPurchaseWithValidData()" classname="ru.netology.test.DebitTourTest" time="25.907">
-    <failure message="Element not found {.notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059271823.11.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059271823.11.html&#10;Timeout: 25 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}
+  <testcase name="DeclinedCardPurchaseWithValidData()" classname="ru.netology.test.DebitTourTest" time="25.89">
+    <failure message="Element not found {.notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207663366.11.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207663366.11.html&#10;Timeout: 25 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059271823.11.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059271823.11.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207663366.11.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207663366.11.html
 Timeout: 25 s.
 Caused by: NoSuchElementException: Cannot locate an element .notification__content.findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -461,7 +461,7 @@ Caused by: NoSuchElementException: Cannot locate an element .notification__conte
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.declinedPurchase(DebitPage.java:53)
-	at app//ru.netology.test.DebitTourTest.DeclinedCardPurchaseWithValidData(DebitTourTest.java:66)
+	at app//ru.netology.test.DebitTourTest.DeclinedCardPurchaseWithValidData(DebitTourTest.java:67)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -561,13 +561,13 @@ Driver info: driver.version: unknown
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithEmptyCVC()" classname="ru.netology.test.DebitTourTest" time="0.413"/>
-  <testcase name="purchaseWithPastYear()" classname="ru.netology.test.DebitTourTest" time="0.411"/>
-  <testcase name="purchaseWithZeroInMonthField()" classname="ru.netology.test.DebitTourTest" time="5.011">
-    <failure message="Element not found {by text: Неверно указан срок действия карты}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059277556.12.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059277556.12.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
+  <testcase name="purchaseWithEmptyCVC()" classname="ru.netology.test.DebitTourTest" time="0.382"/>
+  <testcase name="purchaseWithPastYear()" classname="ru.netology.test.DebitTourTest" time="0.406"/>
+  <testcase name="purchaseWithZeroInMonthField()" classname="ru.netology.test.DebitTourTest" time="4.883">
+    <failure message="Element not found {by text: Неверно указан срок действия карты}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207669047.12.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207669047.12.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059277556.12.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059277556.12.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207669047.12.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207669047.12.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -582,7 +582,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidCardExpiry(DebitPage.java:65)
-	at app//ru.netology.test.DebitTourTest.purchaseWithZeroInMonthField(DebitTourTest.java:140)
+	at app//ru.netology.test.DebitTourTest.purchaseWithZeroInMonthField(DebitTourTest.java:141)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -679,10 +679,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверно указан срок действия карты&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -706,11 +706,11 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithFarFutureYear()" classname="ru.netology.test.DebitTourTest" time="4.891">
-    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059282545.13.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059282545.13.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="purchaseWithFarFutureYear()" classname="ru.netology.test.DebitTourTest" time="4.928">
+    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207673909.13.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207673909.13.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059282545.13.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059282545.13.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207673909.13.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207673909.13.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -725,7 +725,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidFormat(DebitPage.java:57)
-	at app//ru.netology.test.DebitTourTest.purchaseWithFarFutureYear(DebitTourTest.java:206)
+	at app//ru.netology.test.DebitTourTest.purchaseWithFarFutureYear(DebitTourTest.java:207)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -822,10 +822,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -849,16 +849,16 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithEmptyFields()" classname="ru.netology.test.DebitTourTest" time="0.307"/>
-  <testcase name="purchaseWith1CharCVC()" classname="ru.netology.test.DebitTourTest" time="0.397"/>
-  <testcase name="purchaseWithSymbolsInYearField()" classname="ru.netology.test.DebitTourTest" time="0.389"/>
-  <testcase name="purchaseWithSymbolsInCardField()" classname="ru.netology.test.DebitTourTest" time="0.39"/>
-  <testcase name="purchaseWithEmptyYearField()" classname="ru.netology.test.DebitTourTest" time="0.381"/>
-  <testcase name="purchaseWithNumbersInNameField()" classname="ru.netology.test.DebitTourTest" time="4.958">
-    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059289319.14.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059289319.14.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="purchaseWithEmptyFields()" classname="ru.netology.test.DebitTourTest" time="0.306"/>
+  <testcase name="purchaseWith1CharCVC()" classname="ru.netology.test.DebitTourTest" time="0.411"/>
+  <testcase name="purchaseWithSymbolsInYearField()" classname="ru.netology.test.DebitTourTest" time="0.401"/>
+  <testcase name="purchaseWithSymbolsInCardField()" classname="ru.netology.test.DebitTourTest" time="0.393"/>
+  <testcase name="purchaseWithEmptyYearField()" classname="ru.netology.test.DebitTourTest" time="0.384"/>
+  <testcase name="purchaseWithNumbersInNameField()" classname="ru.netology.test.DebitTourTest" time="4.976">
+    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207680739.14.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207680739.14.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059289319.14.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059289319.14.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207680739.14.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207680739.14.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -873,7 +873,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidFormat(DebitPage.java:57)
-	at app//ru.netology.test.DebitTourTest.purchaseWithNumbersInNameField(DebitTourTest.java:283)
+	at app//ru.netology.test.DebitTourTest.purchaseWithNumbersInNameField(DebitTourTest.java:284)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -970,10 +970,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -997,11 +997,11 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithLongName()" classname="ru.netology.test.DebitTourTest" time="5.014">
-    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059294283.15.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059294283.15.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="purchaseWithLongName()" classname="ru.netology.test.DebitTourTest" time="4.979">
+    <failure message="Element not found {by text: Неверный формат}&#10;Expected: visible&#10;Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207685770.15.png&#10;Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207685770.15.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059294283.15.png
-Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693059294283.15.html
+Screenshot: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207685770.15.png
+Page source: file:/Users/artem/IdeaProjects/diploma/build/reports/tests/1693207685770.15.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1016,7 +1016,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldBe(Unknown Source)
 	at app//ru.netology.page.DebitPage.invalidFormat(DebitPage.java:57)
-	at app//ru.netology.test.DebitTourTest.purchaseWithLongName(DebitTourTest.java:272)
+	at app//ru.netology.test.DebitTourTest.purchaseWithLongName(DebitTourTest.java:273)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1113,10 +1113,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82aa0ebe9cd879ddb0f8b2dd71e0696d, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [fbf808cefc16362078cde5ae644c4318, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53425/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/mh/_ymjkbh17hs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf808cefc16362078cde5ae644c4318
 	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base@17.0.7/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.7/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -1140,7 +1140,7 @@ Session ID: 82aa0ebe9cd879ddb0f8b2dd71e0696d
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="purchaseWithEmptyCardField()" classname="ru.netology.test.DebitTourTest" time="0.375"/>
+  <testcase name="purchaseWithEmptyCardField()" classname="ru.netology.test.DebitTourTest" time="0.364"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
